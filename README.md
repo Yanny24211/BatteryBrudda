@@ -1,7 +1,10 @@
 # BatteryBrudda
 ## What?
 Automatically sets Low Power mode and prolongs usage on battery power
-
+Next Steps:
+1. Add a charge limiter so charging always stops at 80%
+2. Create an actual GUI to show battery information such as charge cycles and whatnot
+   
 ## Why?
 When using my Macbook I noticed that unlike my other devices, it doesnt prompt me to turn on Low Power Mode after my battery dips below 20%. I often use my laptop when I need to work outside so prolonging it's usage can be help out quite a bit. I chose applescript to write the main sript (the scpt file) since I've never used it before and wanted to try it out, also because I didnt want to write a full shell script for it. This way I could use shell scripts within my applescript to retrive information about the power management and battery. 
 
