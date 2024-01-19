@@ -10,7 +10,7 @@ The script works by running each time the power managment directory is updated i
 
 ## Set-Up
 1. Download all files, place the .scpt and the .sh file together anywhere and place the .plist file in /Library/LaunchAgents
-2. run chmod +x /path/to/battery_check.sh to make the .sh file executable
+2. run chmod +x /path/to/battery_check.scpt to make the .scpt file executable
 3. run sudo launchctl bootstrap gui/$(id -u) /path/to/com.battery_monitor.plist
 4. run launchctl list | grep com.battery_monitor to see if process is running (It will show the process name and a 0 to the left of it)
 <img width="567" alt="Screenshot 2024-01-14 at 3 16 51 PM" src="https://github.com/Yanny24211/BatteryBrudda/assets/47578696/88e6b093-89ed-46ae-ac8e-c8c46c883faf">
